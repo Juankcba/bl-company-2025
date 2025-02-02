@@ -1,0 +1,23 @@
+.bg-primary-custom {
+    background-image: url("/img/bg-gradient.png");
+    min-height: 492px;
+    width: 100%;
+    padding: 20px;
+    margin: 0;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .btn-primary-hero{
+      color: #fff;
+      padding: 10px;   
+      background-color: transparent;   
+      border-image: linear-gradient(90deg, rgba(4,231,247,1) 0%, rgba(106,106,208,1) 51%, rgba(129,86,196,1) 61%, rgba(140,4,246,1) 100%) ;
+  
+      border-width: 10px;
+      border-style: solid;
+      &.hover{
+        background-color: linear-gradient(90deg, rgba(4,231,247,1) 0%, rgba(106,106,208,1) 51%, rgba(129,86,196,1) 61%, rgba(140,4,246,1) 100%);
+      }
+  
+  }
