@@ -4,21 +4,13 @@ export const title = tv({
   base: "tracking-tight inline font-semibold",
   variants: {
     color: {
-      primaryLight: "$green200",
-      primaryLightHover: "$green300",
-      primaryLightActive: "$green400",
-      primaryLightContrast: "$green600",
-      primary: "#4ADE7B",
-      primaryBorder: "$green500",
-      primaryBorderHover: "$green600",
-      primarySolidHover: "$green700",
-      primarySolidContrast: "$white",
-      primaryShadow: "$green500",
-
-      gradient:
-        "linear-gradient(90deg, rgba(4,231,247,1) 0%, rgba(106,106,208,1) 51%, rgba(129,86,196,1) 61%, rgba(140,4,246,1) 100%)",
-      link: "#5E1DAD",
-
+      violet: "from-[#FF1CF7] to-[#b249f8]",
+      yellow: "from-[#FF705B] to-[#FFB457]",
+      blue: "from-[#5EA2EF] to-[#0072F5]",
+      cyan: "from-[#00b7fa] to-[#01cfea]",
+      green: "from-[#6FEE8D] to-[#17c964]",
+      pink: "from-[#FF72E1] to-[#F54C7A]",
+      foreground: "dark:from-[#FFFFFF] dark:to-[#4B4B4B]",
     },
     size: {
       sm: "text-3xl lg:text-4xl",
